@@ -166,8 +166,9 @@
             </a>
             
             <!-- Nav Links (Desktop) -->
+            <!-- UPDATED: Href for features link -->
             <div class="hidden md:flex items-center space-x-4">
-                <a href="#features" class="text-gray-300 hover:text-white transition-colors text-sm">Features</a>
+                <a href="#seo-content" class="text-gray-300 hover:text-white transition-colors text-sm">Features</a>
                 <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors text-sm">Testimonials</a>
                 <a href="#invoice-tool" class="text-gray-300 hover:text-white transition-colors text-sm">Billing Tool</a>
                 <!-- Google Ads Optimization: Recommend making Contact link more prominent for trust -->
@@ -196,7 +197,8 @@
             <!-- NEW: Mobile Menu -->
             <div id="mobile-menu" class="hidden md:hidden absolute top-16 left-0 w-full bg-[#111] border-b border-gray-800 shadow-lg">
                 <div class="flex flex-col space-y-2 p-4">
-                    <a href="#features" class="mobile-menu-link text-gray-300 hover:text-white transition-colors text-base py-2 px-2 rounded-md">Features</a>
+                    <!-- UPDATED: Href for features link -->
+                    <a href="#seo-content" class="mobile-menu-link text-gray-300 hover:text-white transition-colors text-base py-2 px-2 rounded-md">Features</a>
                     <a href="#testimonials" class="mobile-menu-link text-gray-300 hover:text-white transition-colors text-base py-2 px-2 rounded-md">Testimonials</a>
                     <a href="#invoice-tool" class="mobile-menu-link text-gray-300 hover:text-white transition-colors text-base py-2 px-2 rounded-md">Billing Tool</a>
                     <a href="#invoice-tool" class="btn-primary text-white text-center py-2.5 px-4 rounded-lg font-bold text-base mt-2">
@@ -548,74 +550,18 @@
         }
         </script>
 
-        <!-- Features Section - Compacted -->
-        <!-- UPDATED: Changed to 4-col, 4 cards, and made compact -->
+        <!-- REMOVED "Bill smarter. Work faster." (Features) Section -->
+        <!-- 
         <section id="features" class="py-16 md:py-20 bg-[#0B0B0B]">
-            <div class="container mx-auto max-w-6xl px-4">
-                <div class="text-center max-w-2xl mx-auto mb-12">
-                    <h2 class="text-2xl md:text-3xl font-bold text-white mb-3">
-                        Bill smarter. Work faster.
-                    </h2>
-                    <p class="text-base text-gray-400">
-                        Stop using paper bill books. Our tool gives you everything you need to look professional and get paid.
-                    </p>
-                </div>
-                
-                <!-- Features Grid - UPDATED: 4-col, compact cards, new gap -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                    
-                    <!-- Feature Card 1: GST Ready (Compact) -->
-                    <div class="soft-shadow-card p-4 rounded-xl">
-                        <div class="flex items-center justify-center h-8 w-8 rounded-lg bg-red-900/50 mb-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-[#E50914]">
-                              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.745 3.745 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.745 3.745 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-base font-semibold text-white mb-1">GST Ready Invoices</h3>
-                        <p class="text-gray-400 text-xs">Generate GST-compliant invoices with CGST/SGST/IGST calculations in seconds.</p>
-                    </div>
-                    
-                    <!-- Feature Card 4: Custom Branding (Compact) -->
-                    <div class="soft-shadow-card p-4 rounded-xl">
-                        <div class="flex items-center justify-center h-8 w-8 rounded-lg bg-red-900/50 mb-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-[#E50914]">
-                              <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-base font-semibold text-white mb-1">Custom Branding</h3>
-                        <p class="text-gray-400 text-xs">Add your business logo and signature to look professional and build trust.</p>
-                    </div>
-                    
-                    <!-- Feature Card 5: No Hidden Fees (Compact) -->
-                    <div class="soft-shadow-card p-4 rounded-xl">
-                        <div class="flex items-center justify-center h-8 w-8 rounded-lg bg-red-900/50 mb-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-[#E50914]">
-                              <path stroke-linecap="round" stroke-linejoin="round" d="M9.568 3H5.25A2.25 2.25 0 0 0 3 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 0 0 5.223-5.223c.542-.827.369-1.908-.33-2.607L9.568 3Z" />
-                              <path stroke-linecap="round" stroke-linejoin="round" d="M6 9h.008v.008H6V9Z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-base font-semibold text-white mb-1">No Hidden Fees</h3>
-                        <p class="text-gray-400 text-xs">100% free forever. No monthly limits, no restricted features. Just free billing.</p>
-                    </div>
-                    
-                    <!-- NEW Feature Card 8: Data & Privacy (Compact) -->
-                    <div class="soft-shadow-card p-4 rounded-xl">
-                        <div class="flex items-center justify-center h-8 w-8 rounded-lg bg-red-900/50 mb-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-[#E50914]">
-                              <path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5V9.75m0 0 3 3m-3-3-3 3M6.75 19.5a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.338-2.34 5.25 5.25 0 0 1 1.033 11.115l.007.001h-8.244Z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-base font-semibold text-white mb-1">Data & Privacy</h3>
-                        <p class="text-gray-400 text-xs">Your billing data is processed securely. We never save your private invoice details.</p>
-                    </div>
-                    
-                </div>
-            </div>
+            ... This entire section has been removed ...
         </section>
+        -->
 
-        <!-- UPDATED: SEO Content Section (Card-Based) -->
+        <!-- UPDATED: SEO Content Section (Now includes How-To and FAQ) -->
         <section id="seo-content" class="py-16 md:py-20 bg-[#111]">
             <div class="container mx-auto max-w-6xl px-4"> <!-- Widened container to match other sections -->
+                
+                <!-- "Why Us?" Sub-section -->
                 <div class="text-center max-w-3xl mx-auto mb-12"> <!-- Centered title and added subtitle -->
                     <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">
                         The Best Free GST Billing Software for India's Small Businesses
@@ -625,9 +571,7 @@
                     </p>
                 </div>
 
-                <!-- NEW: Card Grid -->
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-
                     <!-- Card 1: For Every Indian Business -->
                     <div class="soft-shadow-card p-5 rounded-xl h-full"> <!-- Added h-full for consistent height -->
                         <div class="flex items-center justify-center h-10 w-10 rounded-lg bg-red-900/50 mb-4">
@@ -693,14 +637,174 @@
                             No app to download. No software to install. DesiBill is a lightweight tool that runs fast on your phone, tablet, or desktop computer.
                         </p>
                     </div>
+                </div>
 
+                <!-- NEW: "How-To" Sub-section -->
+                <div class="mt-16 md:mt-24">
+                    <div class="text-center max-w-3xl mx-auto mb-12">
+                        <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">
+                            Create Your Free Invoice in 30 Seconds
+                        </h3>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <!-- Step 1 Card -->
+                        <div class="soft-shadow-card p-5 rounded-xl h-full">
+                            <div class="flex items-center justify-center h-10 w-10 rounded-lg bg-red-900/50 mb-4">
+                                <i class="fa-solid fa-user-pen w-5 h-5 text-[#E50914]"></i>
+                            </div>
+                            <h4 class="text-lg font-semibold text-white mb-2"><span class="text-red-500">Step 1:</span> Fill in Details</h4>
+                            <p class="text-gray-300 text-sm leading-relaxed">
+                                Enter your and your client's business details. Add GSTIN and address if needed—all fields are optional.
+                            </p>
+                        </div>
+                        <!-- Step 2 Card -->
+                        <div class="soft-shadow-card p-5 rounded-xl h-full">
+                            <div class="flex items-center justify-center h-10 w-10 rounded-lg bg-red-900/50 mb-4">
+                                <i class="fa-solid fa-list-ol w-5 h-5 text-[#E50914]"></i>
+                            </div>
+                            <h4 class="text-lg font-semibold text-white mb-2"><span class="text-red-500">Step 2:</span> Add Items & Tax</h4>
+                            <p class="text-gray-300 text-sm leading-relaxed">
+                                List your products or services, quantities, and prices. Select the correct GST rate (e.g., 5%, 18%) or simply choose 'No Tax'.
+                            </p>
+                        </div>
+                        <!-- Step 3 Card -->
+                        <div class="soft-shadow-card p-5 rounded-xl h-full">
+                            <div class="flex items-center justify-center h-10 w-10 rounded-lg bg-red-900/50 mb-4">
+                                <i class="fa-solid fa-file-arrow-down w-5 h-5 text-[#E50914]"></i>
+                            </div>
+                            <h4 class="text-lg font-semibold text-white mb-2"><span class="text-red-500">Step 3:</span> Brand & Download</h4>
+                            <p class="text-gray-300 text-sm leading-relaxed">
+                                Upload your logo and add your signature to look professional. Click 'Generate PDF' to instantly download or print your bill.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NEW: "FAQ" Sub-section -->
+                <div class="mt-16 md:mt-24">
+                    <div class="text-center max-w-3xl mx-auto mb-12">
+                        <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">
+                            Frequently Asked Questions
+                        </h3>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6 max-w-4xl mx-auto">
+                        
+                        <!-- FAQ 1 -->
+                        <div class="py-2">
+                            <h4 class="text-base font-semibold text-white mb-1">Is this GST billing software really free?</h4>
+                            <p class="text-gray-400 text-sm leading-relaxed">
+                                Yes, 100% free. There are no trials, no limits on invoices, and no hidden charges. It's a free tool for the Indian small business community.
+                            </p>
+                        </div>
+
+                        <!-- FAQ 2 -->
+                        <div class="py-2">
+                            <h4 class="text-base font-semibold text-white mb-1">Do I need to create an account or sign up?</h4>
+                            <p class="text-gray-400 text-sm leading-relaxed">
+                                No. We believe in speed and simplicity. You can generate an invoice instantly without any sign-up or login. Just open the page and start billing.
+                            </p>
+                        </div>
+
+                        <!-- FAQ 3 -->
+                        <div class="py-2">
+                            <h4 class="text-base font-semibold text-white mb-1">Is my client and billing data saved?</h4>
+                            <p class="text-gray-400 text-sm leading-relaxed">
+                                No. Your privacy is our top priority. All data (client names, prices) is processed in *your* browser only. We never save it on our servers.
+                            </p>
+                        </div>
+                        
+                        <!-- FAQ 4 -->
+                        <div class="py-2">
+                            <h4 class="text-base font-semibold text-white mb-1">What if I don't have a GSTIN?</h4>
+                            <p class="text-gray-400 text-sm leading-relaxed">
+                                No problem. The GSTIN fields are optional. You can use this tool to create a professional non-GST bill, a Bill of Supply, or a simple proforma invoice.
+                            </p>
+                        </div>
+
+                        <!-- FAQ 5 -->
+                        <div class="py-2">
+                            <h4 class="text-base font-semibold text-white mb-1">Can I add my own logo and signature?</h4>
+                            <p class="text-gray-400 text-sm leading-relaxed">
+                                Yes. The tool allows you to upload your business logo and either upload or draw a digital signature to make your invoices look professional.
+                            </p>
+                        </div>
+
+                        <!-- FAQ 6 -->
+                        <div class="py-2">
+                            <h4 class="text-base font-semibold text-white mb-1">Will this work on my mobile phone?</h4>
+                            <p class="text-gray-400 text-sm leading-relaxed">
+                                Absolutely. DesiBill is a lightweight web tool, not a heavy app. It's designed to work perfectly on any device, including your phone, tablet, or desktop.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <!-- RESTORED: Testimonials Section - Compacted -->
+        <section id="testimonials" class="py-16 md:py-20 bg-[#0B0B0B]"> <!-- Swapped to #0B0B0B to alternate -->
+            <div class="container mx-auto max-w-6xl px-4">
+                <div class="text-center max-w-2xl mx-auto mb-12">
+                    <h2 class="text-2xl md:text-3xl font-bold text-white mb-3">Trusted by Indian Freelancers & Founders</h2>
+                    <p class="text-base text-gray-400">
+                        Don't just take our word for it.
+                    </p>
+                </div>
+                
+                <!-- Testimonials Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    
+                    <!-- Testimonial Card 1 - UPDATED: Compacted -->
+                    <div class="soft-shadow-card p-4 rounded-xl flex flex-col justify-between">
+                        <blockquote class="text-sm text-gray-300 italic mb-4">
+                            "Now I can give my clients a proper GST bill in 1 minute, right from my phone. This is a game-changer for my work."
+                        </blockquote>
+                        <div class="flex items-center mt-3">
+                            <img src="https://placehold.co/40x40/E50914/FFFFFF?text=R" alt="Ramesh K." class="w-10 h-10 rounded-full object-cover mr-3 border-2 border-red-500">
+                            <div>
+                                <p class="font-semibold text-white text-sm">Ramesh K.</p>
+                                <p class="text-xs text-red-400">Electrician, Pune</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial Card 2 - UPDATED: Compacted -->
+                    <div class="soft-shadow-card p-4 rounded-xl flex flex-col justify-between">
+                        <blockquote class="text-sm text-gray-300 italic mb-4">
+                            "As a small shopkeeper, managing GST was a headache. <strong>DesiBill</strong> is so simple. I finally have a proper record of my sales."
+                        </blockquote>
+                        <div class="flex items-center mt-3">
+                            <img src="https://placehold.co/40x40/E50914/FFFFFF?text=S" alt="Suresh Patel" class="w-10 h-10 rounded-full object-cover mr-3 border-2 border-red-500">
+                            <div>
+                                <p class="font-semibold text-white text-sm">Suresh Patel</p>
+                                <p class="text-xs text-red-400">Hardware Shop Owner, Ahmedabad</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial Card 3 - UPDATED: Compacted -->
+                    <div class="soft-shadow-card p-4 rounded-xl flex flex-col justify-between">
+                        <blockquote class="text-sm text-gray-300 italic mb-4">
+                            "I tried other 'free' tools, but they all had limits. <strong>DesiBill</strong> is truly free forever. Our small agency runs on it."
+                        </blockquote>
+                        <div class="flex items-center mt-3">
+                            <img src="https://placehold.co/40x40/E50914/FFFFFF?text=A" alt="Ankit S." class="w-10 h-10 rounded-full object-cover mr-3 border-2 border-red-500">
+                            <div>
+                                <p class="font-semibold text-white text-sm">Ankit S.</p>
+                                <p class="text-xs text-red-400">Co-founder, Digital Agency, Bangalore</p>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
 
     </main>
 
-    <!-- Footer - Compacted -->
+    <!-- RESTORED: Footer - Compacted -->
     <footer class="bg-gray-900 border-t border-gray-800 py-12">
         <div class="container mx-auto max-w-6xl px-4">
             
@@ -748,10 +852,11 @@
         </div>
     </footer>
 
-    <!-- JavaScript for Interactivity AND PDF Generation -->
+    <!-- REPAIRED: JavaScript for Interactivity AND PDF Generation -->
     <script>
-        document.addEventListener('DOMContentLoaded', () => { // <-- ADDED THIS WRAPPER
-            // --- NEW: Mobile Menu Toggle ---
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            // --- Mobile Menu Logic ---
             const menuBtn = document.getElementById('mobile-menu-btn');
             const mobileMenu = document.getElementById('mobile-menu');
             const openIcon = document.getElementById('menu-open-icon');
@@ -761,35 +866,30 @@
             if (menuBtn) {
                 menuBtn.addEventListener('click', () => {
                     const isExpanded = menuBtn.getAttribute('aria-expanded') === 'true';
-                    mobileMenu.classList.toggle('hidden');
-                    openIcon.classList.toggle('hidden');
-                    closeIcon.classList.toggle('hidden');
                     menuBtn.setAttribute('aria-expanded', !isExpanded);
-                });
-
-                // Close menu when a link is clicked
-                mobileMenuLinks.forEach(link => {
-                    link.addEventListener('click', () => {
-                        mobileMenu.classList.add('hidden');
-                        openIcon.classList.remove('hidden');
-                        closeIcon.classList.add('hidden');
-                        menuBtn.setAttribute('aria-expanded', 'false');
-                    });
+                    if (mobileMenu) mobileMenu.classList.toggle('hidden');
+                    if (openIcon) openIcon.classList.toggle('hidden');
+                    if (closeIcon) closeIcon.classList.toggle('hidden');
                 });
             }
+            
+            // Close menu when a link is clicked
+            mobileMenuLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    if (menuBtn) menuBtn.setAttribute('aria-expanded', 'false');
+                    if (mobileMenu) mobileMenu.classList.add('hidden');
+                    if (openIcon) openIcon.classList.remove('hidden');
+                    if (closeIcon) closeIcon.classList.add('hidden');
+                });
+            });
 
-            // --- Existing Invoice Generator Logic ---
+            // --- Invoice Generator Logic ---
             const currencySelect = document.getElementById('currency');
             const taxRateSelect = document.getElementById('tax-rate');
             const itemsContainer = document.getElementById('invoice-items-container');
             const addItemBtn = document.getElementById('add-item-btn');
             const itemLimitMsg = document.getElementById('item-limit-msg');
             const invoiceForm = document.getElementById('invoice-generator-form');
-            
-            // Unused variables (kept for clarity, though no longer used by checkAddItemButtonState)
-            const itemDesc1 = document.getElementById('item-desc-1');
-            const itemQty1 = document.getElementById('item-qty-1');
-            const itemPrice1 = document.getElementById('item-price-1');
             
             const subtotalEl = document.getElementById('subtotal-amount');
             const gstRowEl = document.getElementById('gst-row');
@@ -1042,7 +1142,7 @@
                     if (sigMode === 'upload') {
                         try {
                             localStorage.removeItem(signatureStorageKey);
-                            if (signaturePreview) signaturePreview.src = ''; // <-- FIX: Was logoPreview.src in original file
+                            if (signaturePreview) signaturePreview.src = ''; 
                             if (signaturePreview) signaturePreview.classList.add('hidden');
                             removeSignatureBtn.classList.add('hidden');
                             if (signatureUpload) signatureUpload.value = ''; // Clear file input
@@ -1128,6 +1228,7 @@
             }
 
             function startDrawing(e) {
+                if (!sigContext) return;
                 e.preventDefault(); // prevent scrolling
                 isDrawing = true;
                 const pos = getMousePos(sigCanvas, e);
@@ -1136,7 +1237,7 @@
             }
 
             function draw(e) {
-                if (!isDrawing) return;
+                if (!isDrawing || !sigContext) return;
                 e.preventDefault();
                 const pos = getMousePos(sigCanvas, e);
                 sigContext.lineTo(pos.x, pos.y);
@@ -1144,12 +1245,12 @@
             }
 
             function stopDrawing(e) {
-                if (!isDrawing) return;
+                if (!isDrawing || !sigContext) return;
                 isDrawing = false;
                 sigContext.closePath();
                 
                 // Update preview only if it's not a mouseout event
-                if (e.type !== 'mouseout') {
+                if (e.type !== 'mouseout' && sigCanvas) {
                     const dataUrl = sigCanvas.toDataURL();
                     if (signaturePreview) signaturePreview.src = dataUrl;
                     if (signaturePreview) signaturePreview.classList.remove('hidden');
@@ -1170,7 +1271,6 @@
                 // Mouse events
                 sigCanvas.addEventListener('mousedown', startDrawing);
                 sigCanvas.addEventListener('mousemove', draw);
-                // FIXED: Corrected typo 'stopDraweing' to 'stopDrawing'
                 sigCanvas.addEventListener('mouseup', stopDrawing);
                 sigCanvas.addEventListener('mouseout', stopDrawing); // Stop if mouse leaves canvas
 
@@ -1183,7 +1283,7 @@
             // Clear button
             if (sigClearBtn) {
                 sigClearBtn.addEventListener('click', () => {
-                    if (sigContext) sigContext.clearRect(0, 0, sigCanvas.width, sigCanvas.height);
+                    if (sigContext && sigCanvas) sigContext.clearRect(0, 0, sigCanvas.width, sigCanvas.height);
                     if (signaturePreview) signaturePreview.src = '';
                     if (signaturePreview) signaturePreview.classList.add('hidden');
                     if (removeSignatureBtn) removeSignatureBtn.classList.add('hidden');
@@ -1240,26 +1340,41 @@
                         signatureBase64 = sigCanvas.toDataURL(); // Get drawn signature
                     }
 
-                    const yourName = document.getElementById('your-name').value || "Your Business";
-                    const yourAddress = document.getElementById('your-address').value;
-                    const yourGstin = document.getElementById('your-gstin').value;
+                    const yourNameEl = document.getElementById('your-name');
+                    const yourAddressEl = document.getElementById('your-address');
+                    const yourGstinEl = document.getElementById('your-gstin');
+                    const clientNameEl = document.getElementById('client-name');
+                    const clientAddressEl = document.getElementById('client-address');
+                    const clientGstinEl = document.getElementById('client-gstin');
+                    const yourContactEl = document.getElementById('your-contact');
+                    const clientContactEl = document.getElementById('client-contact');
+                    const currencyEl = document.getElementById('currency');
+                    const taxRateEl = document.getElementById('tax-rate');
+                    const subtotalAmountEl = document.getElementById('subtotal-amount');
+                    const gstAmountEl = document.getElementById('gst-amount');
+                    const totalAmountEl = document.getElementById('total-amount');
+                    const invoiceNotesEl = document.getElementById('invoice-notes');
 
-                    const clientName = document.getElementById('client-name').value || "Client Name";
-                    const clientAddress = document.getElementById('client-address').value;
-                    const clientGstin = document.getElementById('client-gstin').value;
+                    const yourName = yourNameEl ? yourNameEl.value : "Your Business";
+                    const yourAddress = yourAddressEl ? yourAddressEl.value : "";
+                    const yourGstin = yourGstinEl ? yourGstinEl.value : "";
+
+                    const clientName = clientNameEl ? clientNameEl.value : "Client Name";
+                    const clientAddress = clientAddressEl ? clientAddressEl.value : "";
+                    const clientGstin = clientGstinEl ? clientGstinEl.value : "";
                     
-                    const yourContact = document.getElementById('your-contact').value; // Added
-                    const clientContact = document.getElementById('client-contact').value; // Added
+                    const yourContact = yourContactEl ? yourContactEl.value : ""; // Added
+                    const clientContact = clientContactEl ? clientContactEl.value : ""; // Added
                     
-                    const currency = document.getElementById('currency').value;
+                    const currency = currencyEl ? currencyEl.value : "INR";
                     const currencySymbol = currencySymbols[currency] || '₹';
-                    const taxRate = parseFloat(document.getElementById('tax-rate').value) || 0;
+                    const taxRate = taxRateEl ? (parseFloat(taxRateEl.value) || 0) : 0;
 
-                    const subtotal = parseFloat(document.getElementById('subtotal-amount').innerText) || 0;
-                    const taxAmount = parseFloat(document.getElementById('gst-amount').innerText) || 0;
-                    const total = parseFloat(document.getElementById('total-amount').innerText) || 0;
+                    const subtotal = subtotalAmountEl ? (parseFloat(subtotalAmountEl.innerText) || 0) : 0;
+                    const taxAmount = gstAmountEl ? (parseFloat(gstAmountEl.innerText) || 0) : 0;
+                    const total = totalAmountEl ? (parseFloat(totalAmountEl.innerText) || 0) : 0;
                     
-                    const invoiceNotes = document.getElementById('invoice-notes').value; // Added
+                    const invoiceNotes = invoiceNotesEl ? invoiceNotesEl.value : ""; // Added
 
                     const date = new Date().toLocaleDateString('en-IN');
                     const invoiceNumber = `INV-${Date.now().toString().slice(-6)}`;
